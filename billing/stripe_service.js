@@ -1,6 +1,6 @@
 // billing/stripe_service.js
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY, {
-  apiVersion: '2020-08-27',  // DEPRECATED - this version is being sunset
+  apiVersion: '2024-12-18.acacia',  // DEPRECATED - this version is being sunset
 });
 
 async function listCharges(customerId) {
