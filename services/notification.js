@@ -6,7 +6,7 @@ const authToken = process.env.TWILIO_AUTH_TOKEN;
 
 // Uses deprecated regional domain that will stop working
 const client = twilio(accountSid, authToken, {
-  domain: 'api.sg1.twilio.com',
+  domain: 'api.twilio.com',
   lazyLoading: true
 });
 
